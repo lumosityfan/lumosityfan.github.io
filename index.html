@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jeff Xie</title>
+        <link rel="stylesheet" href="preferences.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     </head>
     <body>
@@ -17,6 +18,17 @@
                         <a href="projects.html" class="nav-link">Projects</a>
                     </li>
                 </ul>
+                <button class="btn-54">
+                    <span class="shadow"></span>
+                    <span class="depth"></span>
+                    <span class="content"><a href="https://github.com/lumosityfan">GitHub</a></span>
+                </button>
+                <button class="btn-54">
+                    <span class="shadow"></span>
+                    <span class="depth"></span>
+                    <span class="content"><a href="https://www.linkedin.com/in/lumosityfan/">LinkedIn</a></span>
+                </button>
+                <button onclick="myFunction()">Toggle dark mode</button>
             </header>
         </div>
         <div class="container">
@@ -36,7 +48,31 @@
             <li>Website Making</li>
             <li>Mobile App Development</li>
             <li>Networking</li>
+
+            <h1><u>Technologies</u></h1>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Trick</li>
+            <li>SQL</li>
+            <li>Rust</li>
+            <li>AWS</li>
+            <li>Node.js</li>
+            <li>GraphQL</li>
+            <li>APIs</li>
+            <li>Linux scripting</li>
+            <li>Reality Composer Pro</li>
+            <li>Xcode</li>
+            <li>Swift</li>
+            <li>Web scraping</li>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <script>
+            function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        </script>    
     </body>
 </html>
